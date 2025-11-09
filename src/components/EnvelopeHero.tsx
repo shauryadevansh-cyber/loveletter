@@ -12,27 +12,27 @@ interface Polaroid {
 
 const polaroids: Polaroid[] = [
   {
-    image: 'WhatsApp Image 2025-11-09 at 05.42.22_aeaa7549.jpg',
-    caption: 'Our First Meeting',
-    date: '1st August 2024',
+    image: 'src/components/WhatsApp Image 2025-11-09 at 05.42.22_aeaa7549.jpg',
+    caption: 'The First Time',
+    date: '1st August 2025',
     rotation: -3
   },
   {
-    image: 'WhatsApp Image 2025-11-09 at 05.43.31_653765f3.jpg',
-    caption: 'First Coffee Date',
-    date: 'July 15, 2024',
+    image: 'src/components/WhatsApp Image 2025-11-09 at 05.43.31_653765f3.jpg',
+    caption: 'Where I Belong',
+    date: '6th September 2025',
     rotation: 2,
   },
   {
-    image: 'WhatsApp Image 2025-11-09 at 05.43.32_ca2ed0e9.jpg',
-    caption: 'Made It Official',
-    date: 'August 1, 2024',
+    image: 'src/components/WhatsApp Image 2025-11-09 at 05.43.32_ca2ed0e9.jpg',
+    caption: 'All I want to do is',
+    date: '13th October 2025',
     rotation: -2
   },
   {
-    image: 'WhatsApp Image 2025-11-09 at 05.43.32_68f3ccab.jpg',
-    caption: 'Our First Adventure',
-    date: 'August 20, 2024',
+    image: 'src/components/WhatsApp Image 2025-11-09 at 05.43.32_68f3ccab.jpg',
+    caption: 'Two bhondus in love',
+    date: '2nd November 2025',
     rotation: 3
   },
 ];
@@ -237,7 +237,7 @@ export function EnvelopeHero() {
                   <Heart className="w-12 h-12 text-red-500 fill-red-500 mx-auto mb-4 animate-pulse" />
                   <h2 className="text-red-600 mb-2">Love Letter</h2>
                   <p className="text-gray-600 mb-1">4 Months And 5 Days of Beautiful Memories</p>
-                  <p className="text-sm text-gray-500">November 9, 2024</p>
+                  <p className="text-sm text-gray-500">November 9, 2025</p>
                   <div className="mt-6 flex justify-center gap-1">
                     {[...Array(5)].map((_, i) => (
                       <Heart key={i} className="w-3 h-3 text-red-400 fill-red-400" />
@@ -562,7 +562,7 @@ export function EnvelopeHero() {
           >
             <div className="flex items-center justify-center gap-2 text-gray-600">
               <Heart className="w-4 h-4 text-red-400 fill-red-400 animate-pulse" />
-              <p>July 4, 2024 - Forever</p>
+              <p>July 4, 2025 - Forever</p>
               <Heart className="w-4 h-4 text-red-400 fill-red-400 animate-pulse" />
             </div>
           </motion.div>
